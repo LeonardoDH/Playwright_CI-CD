@@ -2,7 +2,7 @@ const { test, expect } = require('@playwright/test');
 const { faker } = require('@faker-js/faker');
 const SignupPage = require('../pages/SignupPage');
 
-test('Realizar cadastro com POM separado', async ({ page }) => {
+test('Realizar cadastro', async ({ page }) => {
   const signupPage = new SignupPage(page);
 
   const email = faker.internet.email();
