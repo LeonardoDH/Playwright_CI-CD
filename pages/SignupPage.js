@@ -18,7 +18,7 @@ class SignupPage {
     await this.page.locator('#months').selectOption('1');
     await this.page.locator('#years').selectOption('1995');
     await this.page.locator('#form form div').filter({ hasText: 'Receive special offers from' }).click();
-    await this.page.getByRole('textbox', { name: 'First name *' }).fill('Lorrana');
+    await this.page.getByRole('textbox', { name: 'First name *' }).fill('Leonardo');
     await this.page.getByRole('textbox', { name: 'Last name *' }).fill('QATEST');
     await this.page.getByRole('textbox', { name: 'Company', exact: true }).fill('Quality');
     await this.page.getByRole('textbox', { name: 'Address * (Street address, P.' }).fill('Rua Assurance');
