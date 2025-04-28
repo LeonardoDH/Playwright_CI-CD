@@ -26,4 +26,4 @@ Preenche os dados de cadastro com informações geradas pelo Faker
 
 Cria uma conta
 
-Valida se o usuário está logado com sucesso (verificando a presença do item "Logout")
+Valida se o usuário está logado com sucesso (verificando a presença do item "logout")
